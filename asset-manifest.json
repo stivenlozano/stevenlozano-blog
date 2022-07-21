@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/stevenlozano-blog/static/css/main.c11b37b7.css",
+    "main.js": "/stevenlozano-blog/static/js/main.2d7a8dae.js",
+    "static/css/843.9c78f0ba.chunk.css": "/stevenlozano-blog/static/css/843.9c78f0ba.chunk.css",
+    "static/js/843.4d542fc2.chunk.js": "/stevenlozano-blog/static/js/843.4d542fc2.chunk.js",
+    "static/css/474.2878535f.chunk.css": "/stevenlozano-blog/static/css/474.2878535f.chunk.css",
+    "static/js/474.b12a7c9c.chunk.js": "/stevenlozano-blog/static/js/474.b12a7c9c.chunk.js",
+    "static/css/658.63605c01.chunk.css": "/stevenlozano-blog/static/css/658.63605c01.chunk.css",
+    "static/js/658.4c341333.chunk.js": "/stevenlozano-blog/static/js/658.4c341333.chunk.js",
+    "static/js/185.c6095377.chunk.js": "/stevenlozano-blog/static/js/185.c6095377.chunk.js",
+    "index.html": "/stevenlozano-blog/index.html",
+    "main.c11b37b7.css.map": "/stevenlozano-blog/static/css/main.c11b37b7.css.map",
+    "main.2d7a8dae.js.map": "/stevenlozano-blog/static/js/main.2d7a8dae.js.map",
+    "843.9c78f0ba.chunk.css.map": "/stevenlozano-blog/static/css/843.9c78f0ba.chunk.css.map",
+    "843.4d542fc2.chunk.js.map": "/stevenlozano-blog/static/js/843.4d542fc2.chunk.js.map",
+    "474.2878535f.chunk.css.map": "/stevenlozano-blog/static/css/474.2878535f.chunk.css.map",
+    "474.b12a7c9c.chunk.js.map": "/stevenlozano-blog/static/js/474.b12a7c9c.chunk.js.map",
+    "658.63605c01.chunk.css.map": "/stevenlozano-blog/static/css/658.63605c01.chunk.css.map",
+    "658.4c341333.chunk.js.map": "/stevenlozano-blog/static/js/658.4c341333.chunk.js.map",
+    "185.c6095377.chunk.js.map": "/stevenlozano-blog/static/js/185.c6095377.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c11b37b7.css",
+    "static/js/main.2d7a8dae.js"
+  ]
+}
