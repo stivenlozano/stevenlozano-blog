@@ -8,5 +8,7 @@ export interface FormModel{
 }
 
 export interface FormsStateModel{
-  formLogin: FormModel[],
+  loginForm: FormModel[],
+  showForm: boolean,
+  typeForm: string,
 }

@@ -1,0 +1,46 @@
+.form-logo {
+  height: 150px;
+}
+
+.form-data {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-data input {
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: 1px solid rgba(0 0 0 / 20%);
+  padding: 10px;
+  outline-style: none;
+}
+
+.form-btn {
+  background-color: var(--color-primary);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.form-btn:hover {
+  background-color: var(--color-bg-opacity);
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field p {
+  color: var(--color-primary);
+  font-size: 1rem;
+  margin-top: 5px;
+}

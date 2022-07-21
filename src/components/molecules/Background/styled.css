@@ -34,6 +34,7 @@
 .background-content h1 {
   color: white;
   font-size: 3rem;
+  text-align: center;
 }
 
 .background-content p {
@@ -41,6 +42,7 @@
   font-size: 1.4rem;
   text-align: center;
   margin: 20px 0;
+  text-align: center;
 }
 
 .background-content a {

@@ -4,21 +4,21 @@ import { IPost } from "../../../store/posts"
 import { Filters, PostCard } from '../../molecules'
 
 interface IPosts {
-  page: string,
   data: IPost[],
 }
 
 interface IProps {
-  display: string,
-  tags: string[],
+  display?: string,
+  tags?: string[],
   posts: IPosts[],
-  onClickDisplay: (value: string) => void, 
-  onClickShowMore: () => void, 
-  onClickTag: (value: string) => void, 
+  filters?: boolean,
+  onClickDisplay?: (value: string) => void, 
+  onClickShowMore?: () => void, 
+  onClickTag?: (value: string) => void, 
   onClickPost: (value: string) => void, 
 }
 
-const PostList: React.FC<IProps> = ({ display, tags,  posts, onClickDisplay, onClickShowMore, onClickTag, onClickPost }) => {
+const PostList: React.FC<IProps> = ({ display, tags,  posts, filters, onClickDisplay, onClickShowMore, onClickTag, onClickPost }) => {
   const [postsFiltered, setPostFilteres] = useState<IPosts[]>([])
 
   useEffect(() => {
@@ -33,7 +33,7 @@ const PostList: React.FC<IProps> = ({ display, tags,  posts, onClickDisplay, onC
 
   return (
     <main id="content-main" className="content">
-      <Filters tags={tags} onClick={onClickDisplay} onChange={handleSearch} onClickTag={onClickTag}/>
+      { !!filters && <Filters tags={tags} onClick={onClickDisplay} onChange={handleSearch} onClickTag={onClickTag}/> }
 
         {
           postsFiltered.map((postsByPage: IPosts, index: number) => 
@@ -54,7 +54,7 @@ const PostList: React.FC<IProps> = ({ display, tags,  posts, onClickDisplay, onC
         }
       
 
-      <button className="btn-show-more" onClick={onClickShowMore}>Mostrar Más</button>
+      { !!filters && <button className="btn-show-more" onClick={onClickShowMore}>Mostrar Más</button> }
     </main>
   )
 }

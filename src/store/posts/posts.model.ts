@@ -40,6 +40,10 @@ export interface IPosts {
 export interface PostStateModel{
   display: string,
   allPosts: IPosts[],
+  tags: string[],
   postSelected: IPost | null,
   postComments: IComment[],
+  tagSelected: '',
+  page: number,
+  postsByUser: IPost[],
 }

@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-post {
+  background-color: white;
+  width: 500px;
+  padding: 10px;
+  box-shadow: 0px 0px 6px rgba(0 0 0 / 20%);
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+.content-post__img {
+  width: 100%;
+  height: 400px;
+}
+
+.content-post__owner {
+  margin: 10px 0;
+}
+
+.content-post__text {
+  font-size: 1.4rem;
+  margin: 20px 0;
+}

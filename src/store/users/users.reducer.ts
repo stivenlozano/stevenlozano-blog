@@ -9,7 +9,12 @@ export default function usersReducer( state = initialState, action: AnyAction) {
       return {
         ...state,
         sesionToken: payload.token,
-        userEmail: payload.email,
+        userLogin: payload.user,
+      }
+    case UsersActions.GET_USERS:
+      return {
+        ...state,
+        allUsers: payload,
       }
     default:
       return state;

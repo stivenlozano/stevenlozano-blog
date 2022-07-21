@@ -18,7 +18,7 @@ const Header: React.FC<IProps> = ({ userLogin, userImage, userName, onSignIn, on
 
       <nav className="header-nav">
         <Link to="/posts">Blog</Link>
-        { !!userLogin && <Link to="/">Mis posts</Link> }
+        { !!userLogin && <Link to="/myPosts">Mis Posts</Link> }
         { !userLogin && <button onClick={onSignIn}>Iniciar Sesión</button> }
         
         { !!userLogin && (

@@ -1,4 +1,5 @@
 export interface UserStateModel{
   sesionToken: string,
-  userEmail: string,
+  allUsers: [],
+  userLogin: null,
 }

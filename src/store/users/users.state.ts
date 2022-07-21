@@ -2,5 +2,6 @@ import { UserStateModel } from '.'
 
 export const initialState: UserStateModel = {
   sesionToken: '',
-  userEmail: '',
+  allUsers: [],
+  userLogin: null,
 }
