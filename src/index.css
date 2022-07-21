@@ -1,0 +1,20 @@
+:root {
+  --color-primary: rgba(255 84 114 / 100%);
+  --color-text: rgba(0 0 0 / 70%);
+  --color-border: rgba(0 0 0 / 10%);
+  --color-bg-opacity: rgba(255 84 114 / 70%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--color-text)
+}
